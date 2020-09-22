@@ -5,6 +5,10 @@
 
 ![none](https://github.com/Kikucha/Kikucha.github.io/blob/master/laba1/laba_1.png)
 
+
+Предложение: Повар готовит салат по Заказу из овощей, специй с помощью кухонных принадлежностей 
+
+
 ## Class diagram
 
 ![none](https://github.com/Kikucha/Kikucha.github.io/blob/master/laba1/laba1_2.png?raw=true)
