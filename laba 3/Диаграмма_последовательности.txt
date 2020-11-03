@@ -4,7 +4,7 @@ boundary "Приложение" as app
 entity "Данные" as data
 actor "Младший повар" as user1
 
-user -> app : Запрос
+user -> app : Отправка
 app -> data : Заказ 
 data -> app : Ответ
 app -> user1 : Отображение рецепта
