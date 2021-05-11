@@ -1,0 +1,31 @@
+@startuml
+left to right direction
+
+skinparam actor {
+BackgroundColor White
+ArrowColor Black
+BorderColor Black
+}
+
+skinparam usecase {
+BackgroundColor Beige
+ArrowColor Black
+BorderColor Black
+}
+
+actor HeadNurse as "Старшая медсестра"
+
+usecase case1 as "Просмотр остатков"
+usecase case2 as "Проставление и просмотр расписания смен"
+usecase case3 as "Регистрация пациента"
+usecase case4 as "Списание использованного оборудования"
+
+actor Nurse as "Медицинская сестра"
+
+HeadNurse ---> case1
+HeadNurse ---> case2
+HeadNurse ---> case4
+
+case3 <--- Nurse
+case4 <--- Nurse
+@enduml
