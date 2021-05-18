@@ -19,7 +19,7 @@ usecase case1 as "Просмотр остатков"
 usecase case2 as "Составление заявки"
 usecase case3 as "Регистрация пациента"
 usecase case4 as "Списание использованного оборудования"
-usecase case5 as "Изменение данных о пациенте"
+usecase case5 as "Изменение данных истории лечения"
 
 actor Nurse as "Медицинская сестра"
 
