@@ -23,11 +23,19 @@ usecase case5 as "Изменение данных истории лечения"
 
 actor Nurse as "Медицинская сестра"
 
-HeadNurse ---> case1
-HeadNurse ---> case2
-HeadNurse ---> case4
+actor ARM as "АРМ"
 
-case3 <--- Nurse
-case4 <--- Nurse
-case5 <--- Nurse
+HeadNurse --- case1
+HeadNurse --- case2
+HeadNurse --- case4
+
+Nurse --- case3
+Nurse --- case4
+Nurse --- case5
+
+case1 --- ARM
+case2 --- ARM
+case3 --- ARM
+case4 --- ARM
+case5 --- ARM
 @enduml
